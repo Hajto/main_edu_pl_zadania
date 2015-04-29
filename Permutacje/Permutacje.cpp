@@ -1,14 +1,9 @@
+//http://main.edu.pl/pl/archive/ilocamp/2010/per
+
 #include<iostream>
 #include<algorithm>
 #include<vector>
 
-template <typename T>
-inline T read(std::istream& stream) {
-    T temp;
-    stream >> temp;
-    return temp;
-}
-//Brzydkie ale zwraca i daje, nie chce mi sie bawiæ z mapowaniem typów do stringów...
 int gibInteger(){
     int temp;
     scanf("%d",&temp);
